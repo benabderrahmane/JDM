@@ -1,0 +1,7 @@
+CREATE TABLE relationTypes (
+	rtid INTEGER,
+	name VARCHAR(64),
+	nom_etendu VARCHAR(128),
+	info VARCHAR(512),
+	CONSTRAINT PK_RELATIONTYPES PRIMARY KEY (rtid)
+);
